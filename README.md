@@ -28,6 +28,8 @@ hasTargetSum([3, 8, 12, 4, 11, 7], 10);
 
 hasTargetSum([22, 19, 4, 6, 30], 25);
 // returns true, since 19 and 6 add up to 25
+//itterate thru each # in the array for the current num, identify if a complement that adds to the target (comp = target - num)
+//iterate through the rest of the arry check if any number is our complent if so return true. if i reach the end of the arrray return false
 
 hasTargetSum([1, 2, 5], 4);
 // returns false, since no pair of numbers adds up to 4
@@ -37,6 +39,11 @@ This is a challenging problem, but you have the tools to come up with a
 solution! It's ok if your initial solution isn't optimal from a runtime
 perspective; it's totally fine to brute force your way to a solution and get
 something working before trying to optimize.
+
+//
+make a function 'hasTargetSum' that checks if 2 nymbers from the array equal a some targer. for ex [1,2,3,4] and the target is 6. if i look at the array 2 + 4 IS 6. so it returns true. for each number check check if the numnber adds up to the target.
+
+//
 
 ## Problem Solving Approach
 
